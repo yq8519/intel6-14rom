@@ -1,4 +1,5 @@
 #!/bin/bash
+git submodule update --init
 cp -r OvmfPkg edk2/
 cp -r Build edk2/
 cd edk2
