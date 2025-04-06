@@ -1,5 +1,4 @@
 #!/bin/bash
-git clone https://github.com/tianocore/edk2
 cp -r OvmfPkg edk2/
 cp -r Build edk2/
 cd edk2
@@ -15,7 +14,7 @@ else
 fi
 #sed end
 
-
+git diff > edk2-autoGenPatch.patch
 git submodule update --init
 source edksetup.sh
 sed -i 's:^ACTIVE_PLATFORM\s*=\s*\w*/\w*\.dsc*:ACTIVE_PLATFORM       = OvmfPkg/OvmfPkgX64.dsc:g' Conf/target.txt
