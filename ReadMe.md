@@ -3,9 +3,9 @@ intel 6-14代pve虚拟机核显直通使用rom 使用说明（qemu9.2版本上�
 Usage Instructions for Intel 6th-14th Generation CPU Integrated GPU Passthrough in PVE Virtual Machines using Custom ROM Files
 (Note:This solution is not compatible with qemu 9.2.This solution is not compatible with Ultra 1st/2nd Generation (e.g., Meteor Lake architecture) desktops and laptops, as no testing has been conducted on these devices due to lack of hardware availability.)
 
-本项目fork edk2 2024年12月5日版本
+本项目edk2已经做成了子模块。
 
-This project is forked from the EDK2 version dated December 5, 2024.
+This project is forked from the EDK2, EDK2 is submodule.
 
 
 一、关于源码About source code：
