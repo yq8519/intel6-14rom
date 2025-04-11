@@ -220,3 +220,7 @@ echo 0 > rom
 可以参考这个教程
 
 https://foxi.buduanwang.vip/virtualization/pve/1602.html/
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lixiaoliu666/intel6-14rom&type=Date)](https://www.star-history.com/#lixiaoliu666/intel6-14rom&Date)
