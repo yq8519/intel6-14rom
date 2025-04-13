@@ -1,7 +1,12 @@
-intel 6-14代pve虚拟机核显直通使用rom 使用说明（qemu9.2版本上游源码问题使用直接花屏不支持请降级使用9.1（ apt reinstall pve-qemu-kvm=9.1.2-3 ），不支持ultra1 2代台式机和笔记本，没机器测试懒得搞）交流qq群 25438194（666)
+intel 6-14代pve虚拟机核显直通使用rom 使用说明
 
 Usage Instructions for Intel 6th-14th Generation CPU Integrated GPU Passthrough in PVE Virtual Machines using Custom ROM Files
-(Note:This solution is not compatible with qemu 9.2.This solution is not compatible with Ultra 1st/2nd Generation (e.g., Meteor Lake architecture) desktops and laptops, as no testing has been conducted on these devices due to lack of hardware availability.)
+
+qemu9.2版本上游源码问题使用直接花屏不支持请降级使用9.1，apt reinstall pve-qemu-kvm=9.1.2-3 或者使用我的项目 https://github.com/lixiaoliu666/pve-anti-detection 的9.2版本deb包。不支持ultra1 2代台式机和笔记本，没机器测试懒得搞。
+
+"The upstream source code of QEMU 9.2 has compatibility issues causing screen tearing. Please downgrade to version 9.1. apt reinstall pve-qemu-kvm=9.1.2-3  or  use the 9.2 version deb package from my project: https://github.com/lixiaoliu666/pve-anti-detection . Note that Ultra 1/2 generation desktops and laptops are unsupported; no testing was done due to lack of devices."
+
+交流qq群 25438194（666)
 
 本项目edk2已经做成了子模块。
 
