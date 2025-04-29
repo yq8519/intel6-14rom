@@ -29,35 +29,5 @@ cp ./BaseTools/Source/C/bin/EfiRom Build/
 cd Build
 ./EfiRom -e pc-4-5-IntelGopDriver.efi pc-6-7-8-9-IntelGopDriver.efi j4125.efi pc-10-IntelGopDriver.efi pc-11-IntelGopDriver.efi pc-12-13-14-IntelGopDriver.efi 11-J6412.efi 11-n5095.efi 12-1240p.efi 12-n100.efi N2930.efi N3350.efi nb-11-11700h.efi nb-11-1185G7E.efi nb-12-12700h.efi nb-13-13700h.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 6-14.rom
 ls
-./EfiRom -e pc-4-5-IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o pc-4-5.rom
-ls
-./EfiRom -e pc-6-7-8-9-IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o pc-6-7-8-9.rom
-ls
-./EfiRom -e j4125.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o j4125.rom
-ls
-./EfiRom -e pc-10-IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o pc-10.rom
-ls
-./EfiRom -e pc-11-IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o pc-11.rom
-ls
-./EfiRom -e pc-12-13-14-IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o pc-12-13-14.rom
-ls
-./EfiRom -e 11-J6412.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 11-J6412.rom
-ls
-./EfiRom -e 11-n5095.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 11-n5095.rom
-ls
-./EfiRom -e 12-1240p.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 12-1240p.rom
-ls
-./EfiRom -e 12-n100.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 12-n100.rom
-ls
-./EfiRom -e N2930.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o N2930.rom
-ls
-./EfiRom -e N3350.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o N3350.rom
-ls
-./EfiRom -e nb-11-11700h.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o nb-11-11700h.rom
-ls
-./EfiRom -e nb-11-1185G7E.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o nb-11-1185G7E.rom
-ls
-./EfiRom -e nb-12-12700h.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o nb-12-12700h.rom
-ls
-./EfiRom -e nb-13-13700h.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o nb-13-13700h.rom
+./EfiRom -e IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGOPPolicy.efi -f 0x8086 -i 0xffff -o 11800h.rom
 ls
